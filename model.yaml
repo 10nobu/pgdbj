@@ -1,0 +1,43 @@
+- Orthologgroup <http://pgdbj.jp/ortholog-db/resource/33090_cluster_1_57_0/33090:0>:
+  - a: orth:OrthologGroup
+  - orth:member+:
+    - ortholog_member: Orthologgroup, ParalogGroup
+  - orth:taxon:
+    - taxon: TaxonomyId
+  - dct:description:
+    - orthologgroup_description: "photosystem II protein T (chloroplast)"
+  - dct:identifier:
+    - orthologgroup_identifier: "33090:0"
+  - void:inDataset:
+    - in_dataset: <http://pgdbj.jp/ortholog-db/resource/33090_clusters_1_57_0>
+  - rdfs:label+:
+    - orthologgroup_label: "33090:0"
+    - orthologgroup_label: "33090:0"
+  - foaf:page+:
+    - webpage: <http://pgdbj.jp/od/1.57.0/PORT33090/33090/TOC33090.html>
+- ParalogGroup <http://pgdbj.jp/ortholog-db/resource/33090_cluster_1_57_0/4558:3898>:
+  - a: orth:ParalogGroup
+  - rdfs:label+:
+    - paraloggroup_label: "4558:3898"
+  - dct:identifier:
+    - paraloggroup_identifier: "4558:3898"
+  - dct:description:
+    - paraloggroup_description: "hypothetical protein SORBIDRAFT_01g012130"
+  - orth+:
+    - taxon: TaxonomyId
+  - void:inDataset:
+    - in_dataset: <http://pgdbj.jp/ortholog-db/resource/33090_clusters_1_57_0>
+  - foaf:page+:
+    - webpage: <http://pgdbj.jp/od/1.57.0/PORT33090/4558/4558_3.html#3898>
+  - orth:member*:
+    - paralog_member: Protein
+- Protein <http://www.ncbi.nlm.nih.gov/protein/NP_001030613.1>:
+  - a: orth:Protein
+  - dct:description:
+    - protein_descripton: "uncharacterized protein [Arabidopsis thaliana]"
+  - rdfs:seeAlso:
+    - xref_ncbiprotein: <http://identifiers.org/ncbiprotein/NP_001030613.1>
+- TaxonomyId <http://identifiers.org/taxonomy/33090>:
+  - a orth:Taxon
+  - up:organism:
+    - uniprot_taxonomy: <http://purl.uniprot.org/taxonomy/33090>
