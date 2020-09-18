@@ -1,7 +1,7 @@
 - Orthologgroup <http://pgdbj.jp/ortholog-db/resource/33090_cluster_1_57_0/33090:0>:
   - a: orth:OrthologGroup
   - orth:member+:
-    - ortholog_member: Orthologgroup, ParalogGroup
+    - ortholog_member: [ Orthologgroup, ParalogGroup ]
   - orth:taxon:
     - taxon: TaxonomyId
   - dct:description:
