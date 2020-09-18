@@ -12,7 +12,6 @@
     - in_dataset: <http://pgdbj.jp/ortholog-db/resource/33090_clusters_1_57_0>
   - rdfs:label+:
     - orthologgroup_label: "33090:0"
-    - orthologgroup_label: "33090:0"
   - foaf:page+:
     - webpage: <http://pgdbj.jp/od/1.57.0/PORT33090/33090/TOC33090.html>
 - ParalogGroup <http://pgdbj.jp/ortholog-db/resource/33090_cluster_1_57_0/4558:3898>:
